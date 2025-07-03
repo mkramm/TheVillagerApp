@@ -1,0 +1,33 @@
+import {  StyleSheet } from 'react-native';
+const styles = StyleSheet.create({
+    screen: { flex: 1, backgroundColor: '#111827' },
+    topContainer: { flexDirection: 'row', padding: 10, width: '100%', justifyContent: 'space-around' },
+    gameArea: { flex: 1, justifyContent: 'center', alignItems: 'center', width: '100%' },
+    panel: { backgroundColor: '#1F2937', padding: 10, borderRadius: 8, marginHorizontal: 5, alignItems: 'center', flex: 1 },
+    panelTitle: { color: '#9CA3AF', fontSize: 14, fontWeight: 'bold', marginBottom: 5 },
+    panelText: { color: 'white', fontSize: 16 },
+    panelTextLg: { color: 'white', fontSize: 20 },
+    panelTextBold: { color: 'white', fontSize: 18, fontWeight: 'bold' },
+    infoText: { color: 'white', fontSize: 28, fontWeight: 'bold' },
+    collectGoalContainer: { flexDirection: 'row', justifyContent: 'space-around', width: '100%' },
+    collectGoalItem: { alignItems: 'center' },
+    gridContainer: { backgroundColor: '#000', padding: 5, borderRadius: 12 },
+    gridRow: { flexDirection: 'row' },
+    elementWrapper: { padding: 2, borderRadius: 8 },
+    elementSelected: { backgroundColor: '#FBBF24' },
+    element: { backgroundColor: '#374151', borderRadius: 8, justifyContent: 'center', alignItems: 'center' },
+    elementEmpty: { backgroundColor: 'rgba(0,0,0,0.2)', borderRadius: 8 },
+    elementText: { color: 'white' },
+    modalOverlay: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(0, 0, 0, 0.75)', justifyContent: 'center', alignItems: 'center', zIndex: 10 },
+    modalContainer: { backgroundColor: '#1F2937', borderRadius: 12, padding: 25, alignItems: 'center', width: '80%', shadowColor: '#000', shadowOffset: { width: 0, height: 5 }, shadowOpacity: 0.3, shadowRadius: 10, elevation: 10 },
+    modalTitle: { fontSize: 28, fontWeight: 'bold', marginBottom: 10 },
+    modalTitleWon: { color: '#34D399' },
+    modalTitleLost: { color: '#F87171' },
+    modalBody: { fontSize: 16, color: 'white', textAlign: 'center', marginBottom: 25 },
+    restartButton: { backgroundColor: '#4F46E5', paddingVertical: 12, paddingHorizontal: 30, borderRadius: 8 },
+    restartButtonText: { color: 'white', fontSize: 18, fontWeight: 'bold' },
+    startButton: { backgroundColor: '#10B981', paddingVertical: 15, paddingHorizontal: 40, borderRadius: 8 },
+    startButtonText: { color: 'white', fontSize: 22, fontWeight: 'bold' },
+});
+
+export default styles;
