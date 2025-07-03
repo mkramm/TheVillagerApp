@@ -13,7 +13,7 @@ const styles = StyleSheet.create({
   },
   hostContent: {
       flex: 1,
-      justifyContent: 'center', // Zentriert das Spiel
+      justifyContent: 'center',
       padding: 20,
   },
   title: {
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
       color: '#d0d0d0',
   },
   minigameContainer: {
-    flex: 0.8, // Nimmt 80% des verfügbaren Platzes ein
+    flex: 0.8,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#2c3e50',

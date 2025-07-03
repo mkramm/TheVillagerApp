@@ -1,16 +1,15 @@
 import { Link } from 'expo-router';
-import React from 'react'; // Bereits oben importiert
+import React from 'react';
 import { Text, View, FlatList, SafeAreaView, TouchableOpacity } from 'react-native';
 import styles from './styles';
 
-// Die minigames-Daten könnten in einer separaten Datei liegen
 const minigames = [
     { id: '1', name: 'Match-3-Kampf', component: 'Match3Combat' as const },
     { id: '2', name: 'Merge-Spiel', component: 'MergeGame' as const },
     { id: '3', name: 'Turmverteidigung (Demnächst)', component: null },
 ];
 
-export default function HomeScreen() { // Umbenannt, um Konflikte zu vermeiden
+export default function HomeScreen() {
   return (
     <SafeAreaView style={styles.screenContainer}>
       <View style={styles.content}>
